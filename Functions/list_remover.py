@@ -1,5 +1,9 @@
 import random
 from IPython.display import display, Markdown, Latex, clear_output, display_markdown
+import sys
+# Using this one for generating random numbers for practicing
+# B-trees and B+ trees
+
 num_list = []
 for i in range(10):
     rn = random.randint(0,20)
